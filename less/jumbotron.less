@@ -1,25 +1,21 @@
 .jumbotron-fluid {
     height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+    .flex-center();
     h1 {
-        color: white;
-        font-size: 5rem;
+        .hero-font(5rem, 600, white);
+        text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     }
 }
 
 .slide1 {
-    background-image: url("../assets/images/carousel/carousel1.jpeg");
+    background-image: url("../assets/images/carousel/carousel01.jpeg");
     .background-img();
 }
 .slide2 {
-    background-image: url("../assets/images/carousel/carousel1.jpeg");
+    background-image: url("../assets/images/carousel/carousel02.jpeg");
     .background-img();
 }
 .slide3 {
-    background-image: url("../assets/images/carousel/carousel1.jpeg");
+    background-image: url("../assets/images/carousel/carousel03.jpeg");
     .background-img();
 }
