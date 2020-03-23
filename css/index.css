@@ -1,21 +1,31 @@
-.clear {
-  clear: both; }
-
-nav {
-  float: left;
-  color: #FF0000;
-  font-family: Helvetica, sans-serif; }
-  nav ul li ul.sub-nav {
-    display: none; }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: red; }
-
-.box2 {
-  width: 200px;
-  height: 200px;
-  background: gray; }
-
 /*# sourceMappingURL=main.css.map */
+.navbar {
+  width: 100%;
+  padding: 1rem;
+}
+.navbar-toggler {
+  border: none;
+}
+ul.navbar-nav li a {
+  color: black;
+  border-bottom: 3px solid transparent;
+  transition: 0.2s linear;
+}
+ul.navbar-nav li a:hover {
+  border-bottom: 3px solid red;
+  width: 100%;
+}
+.logo {
+  width: 90px;
+}
+.carousel-inner {
+  height: 50vh;
+  margin-bottom: 2vh;
+}
+.carousel-inner img {
+  object-fit: cover;
+  height: 50vh;
+}
+.carousel-item {
+  height: 50vh;
+}
