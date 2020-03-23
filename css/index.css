@@ -1,4 +1,9 @@
 /*# sourceMappingURL=main.css.map */
+.background-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .navbar {
   width: 100%;
   padding: 1rem;
@@ -9,7 +14,7 @@
 ul.navbar-nav li a {
   color: black;
   border-bottom: 3px solid transparent;
-  transition: 0.2s linear;
+  transition: 0.2s ease-in-out;
 }
 ul.navbar-nav li a:hover {
   border-bottom: 3px solid red;
@@ -28,4 +33,33 @@ ul.navbar-nav li a:hover {
 }
 .carousel-item {
   height: 50vh;
+}
+.jumbotron-fluid {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.jumbotron-fluid h1 {
+  color: white;
+  font-size: 5rem;
+}
+.slide1 {
+  background-image: url("../assets/images/carousel/carousel1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide2 {
+  background-image: url("../assets/images/carousel/carousel1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide3 {
+  background-image: url("../assets/images/carousel/carousel1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
