@@ -13,6 +13,9 @@
   font-weight: 600;
   color: #343434;
 }
+.section-heading input {
+  margin: 0 auto;
+}
 /*# sourceMappingURL=main.css.map */
 .background-img {
   background-position: center;
