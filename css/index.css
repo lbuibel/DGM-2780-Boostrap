@@ -1,7 +1,10 @@
 .section-heading {
   text-align: center;
   width: 80%;
-  margin: 0 auto;
+  margin: 2rem auto;
+}
+.section-heading img {
+  margin-bottom: 1rem;
 }
 .section-heading h2 {
   text-transform: uppercase;
@@ -84,6 +87,42 @@ ul.navbar-nav li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 825px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
+.card {
+  color: #343434;
+  width: 47.5%;
+}
+.card h5 {
+  font-family: "Baloo 2", cursive;
+  transition: ease-in-out 0.15s;
+}
+.card h5:hover {
+  color: red;
+  cursor: pointer;
+}
+.card h5:hover ion-icon {
+  padding-left: 1rem;
+}
+@media (max-width: 825px) {
+  .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+.card ion-icon {
+  color: red;
+  margin-bottom: -2.75px;
+  padding-left: 0.5rem;
+  transition: ease-in-out 0.15s;
 }
 .col {
   border: 0.5px solid #343434;

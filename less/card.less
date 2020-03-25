@@ -1,0 +1,26 @@
+.card {
+    color: @gray;
+    h5 {
+        font-family: "Baloo 2", cursive;  
+        transition: ease-in-out .15s;
+        &:hover {
+            color: red;
+            cursor: pointer;
+            ion-icon {
+                padding-left: 1rem;
+            }
+        }
+    }
+    width: 47.5%;
+    @media @tablet {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    ion-icon {
+        color: red;
+        margin-bottom: -2.75px;
+        padding-left: .5rem;
+        transition: ease-in-out .15s;
+    }
+}
