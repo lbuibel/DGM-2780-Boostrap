@@ -5,6 +5,7 @@
 }
 .section-heading img {
   margin-bottom: 1rem;
+  max-height: 10rem;
 }
 .section-heading h2 {
   text-transform: uppercase;
@@ -95,7 +96,7 @@ ul.navbar-nav li a:hover {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 825px) {
+@media (max-width: 725px) {
   .card-container {
     flex-direction: column;
   }
@@ -115,7 +116,7 @@ ul.navbar-nav li a:hover {
 .card h5:hover ion-icon {
   padding-left: 1rem;
 }
-@media (max-width: 825px) {
+@media (max-width: 725px) {
   .card {
     width: 100%;
     margin-bottom: 2rem;
@@ -137,4 +138,9 @@ ul.navbar-nav li a:hover {
 .arrival-grid {
   height: 40rem;
   border: solid red;
+}
+footer {
+  margin-top: 5rem;
+  height: 25rem;
+  background-color: #d7d7d7;
 }
