@@ -124,7 +124,7 @@ ul.navbar-nav li a:hover {
 }
 .card ion-icon {
   color: red;
-  margin-bottom: -2.75px;
+  margin-bottom: -0.235rem;
   padding-left: 0.5rem;
   transition: ease-in-out 0.15s;
 }
