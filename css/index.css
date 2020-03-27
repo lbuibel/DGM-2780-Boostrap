@@ -136,8 +136,11 @@ ul.navbar-nav li a:hover {
   object-fit: cover;
 }
 .arrival-grid {
-  height: 40rem;
   border: solid red;
+}
+.col-sm-12,
+.col-md-6 {
+  border: 0.5px solid #343434;
 }
 footer {
   margin-top: 5rem;
