@@ -1,5 +1,31 @@
 footer {
     margin-top: 5rem;
+    padding-top: 5rem;
     height: 25rem;
     background-color: rgb(215, 215, 215);
+
+    img {
+        padding: 1rem;
+        width: 200px;
+        margin: 0 auto;
+        .flex-center();
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            color: @gray;
+        }
+    }
+}
+
+.footer-icon {
+    text-align: center;
+    font-size: 1.25rem;
+    color: @gray;
+    ion-icon {
+        padding: .5rem 15px .5rem 15px;
+    }
 }
