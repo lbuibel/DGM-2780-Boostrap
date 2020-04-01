@@ -144,8 +144,7 @@ ul.navbar-nav li a:hover {
 }
 footer {
   margin-top: 5rem;
-  padding-top: 5rem;
-  height: 25rem;
+  padding: 4rem 0 5rem 0;
   background-color: #d7d7d7;
 }
 footer img {
@@ -164,11 +163,22 @@ footer ul {
 footer ul li {
   color: #343434;
 }
+footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer h5 {
+  margin: 0.5rem 0 0 0;
+}
 .footer-icon {
   text-align: center;
   font-size: 1.25rem;
   color: #343434;
 }
 .footer-icon ion-icon {
-  padding: 0.5rem 15px 0.5rem 15px;
+  padding: 0.75rem 15px 0.5rem 15px;
+}
+.footer-icon ion-icon:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
