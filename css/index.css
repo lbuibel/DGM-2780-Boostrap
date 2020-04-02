@@ -96,7 +96,7 @@ ul.navbar-nav li a:hover {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 725px) {
+@media (max-width: 768px) {
   .card-container {
     flex-direction: column;
   }
@@ -116,7 +116,7 @@ ul.navbar-nav li a:hover {
 .card h5:hover ion-icon {
   padding-left: 1rem;
 }
-@media (max-width: 725px) {
+@media (max-width: 768px) {
   .card {
     width: 100%;
     margin-bottom: 2rem;
@@ -128,24 +128,58 @@ ul.navbar-nav li a:hover {
   padding-left: 0.5rem;
   transition: ease-in-out 0.15s;
 }
-.col {
-  border: 0.5px solid #343434;
-}
 .col img {
   width: 100%;
   object-fit: cover;
 }
-.arrival-grid {
-  border: solid red;
+@media (max-width: 768px) {
+  .mobile-margin {
+    margin-bottom: 24px;
+  }
 }
-.col-sm-12,
-.col-md-6 {
-  border: 0.5px solid #343434;
+.image-text {
+  position: absolute;
+  transform: translateY(-65px);
+  margin-left: 20px;
+}
+.image-text h3 {
+  font-family: "Baloo 2", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+.image-text h3:hover {
+  cursor: pointer;
+}
+.image-text h3:hover ion-icon {
+  padding-left: 1rem;
+}
+.image-text ion-icon {
+  color: white;
+  margin-bottom: -0.235rem;
+  padding-left: 0.5rem;
+  transition: ease-in-out 0.15s;
+}
+.grid-img-md {
+  object-fit: cover;
+  height: 600px;
+  width: 100%;
+}
+.grid-img-sm {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .grid-img-sm {
+    height: 400px;
+  }
 }
 footer {
   margin-top: 5rem;
   padding: 4rem 0 5rem 0;
-  background-color: #d7d7d7;
+  background-color: #ededed;
 }
 footer img {
   padding: 1rem;

@@ -1,19 +1,33 @@
-.col {
-    border: .5px solid @gray;
-}
 
 .col img {
     width: 100%;
     object-fit: cover;
 }
 
-// .row {
-// }
-
-.arrival-grid {
-    border: solid red;
+.mobile-margin {
+    @media @tablet {
+        margin-bottom: 24px;
+    }
 }
 
-.col-sm-12, .col-md-6 {
-    border: .5px solid @gray;
+.image-text {
+    position: absolute;
+    transform: translateY(-65px);
+    margin-left: 20px;
+    h3 {
+        .hero-font(1.5rem, 600, white);
+        text-transform: uppercase;
+        &:hover {
+            cursor: pointer;
+            ion-icon {
+                padding-left: 1rem;
+            }
+        }
+    }
+    ion-icon {
+        color: white;
+        margin-bottom: -.235rem;
+        padding-left: .5rem;
+        transition: ease-in-out .15s;
+    }
 }
