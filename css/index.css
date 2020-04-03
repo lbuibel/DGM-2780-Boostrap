@@ -92,18 +92,8 @@ ul.navbar-nav li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card-container {
-  display: flex;
-  justify-content: space-between;
-}
-@media (max-width: 768px) {
-  .card-container {
-    flex-direction: column;
-  }
-}
 .card {
   color: #343434;
-  width: 47.5%;
 }
 .card h5 {
   font-family: "Baloo 2", cursive;
@@ -115,12 +105,6 @@ ul.navbar-nav li a:hover {
 }
 .card h5:hover ion-icon {
   padding-left: 1rem;
-}
-@media (max-width: 768px) {
-  .card {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
 }
 .card ion-icon {
   color: red;
