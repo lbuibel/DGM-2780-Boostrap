@@ -48,16 +48,19 @@ ul.navbar-nav li a:hover {
 .logo {
   width: 90px;
 }
-.carousel-inner {
-  height: 50vh;
-  margin-bottom: 2vh;
+#about-carousel {
+  margin-left: 50px;
+  margin-right: 50px;
 }
-.carousel-inner img {
-  object-fit: cover;
-  height: 50vh;
+.carousel-control-prev {
+  margin-left: -85px;
 }
-.carousel-item {
-  height: 50vh;
+.carousel-control-next {
+  margin-right: -85px;
+}
+.carousel-icon {
+  color: #343434;
+  font-size: 1.5rem;
 }
 .jumbotron-fluid {
   height: 50vh;
@@ -92,21 +95,21 @@ ul.navbar-nav li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card {
+.card-body {
   color: #343434;
 }
-.card h5 {
+.card-body h5 {
   font-family: "Baloo 2", cursive;
   transition: ease-in-out 0.15s;
 }
-.card h5:hover {
+.card-body h5:hover {
   color: red;
   cursor: pointer;
 }
-.card h5:hover ion-icon {
+.card-body h5:hover ion-icon {
   padding-left: 1rem;
 }
-.card ion-icon {
+.card-body ion-icon {
   color: red;
   margin-bottom: -0.235rem;
   padding-left: 0.5rem;
@@ -159,6 +162,14 @@ ul.navbar-nav li a:hover {
   .grid-img-sm {
     height: 400px;
   }
+}
+.about-hero {
+  background-image: url("../assets/images/carousel/carousel01.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 40vh;
+  color: white;
 }
 footer {
   margin-top: 4rem;
