@@ -1,22 +1,3 @@
-.section-heading {
-  text-align: center;
-  width: 80%;
-  margin: 2rem auto;
-}
-.section-heading img {
-  margin-bottom: 1rem;
-  max-height: 10rem;
-}
-.section-heading h2 {
-  text-transform: uppercase;
-  font-family: "Baloo 2", cursive;
-  font-size: 2rem;
-  font-weight: 600;
-  color: #343434;
-}
-.section-heading input {
-  margin: 0 auto;
-}
 /*# sourceMappingURL=main.css.map */
 .background-img {
   background-position: center;
@@ -28,6 +9,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.grid-text {
+  color: white;
+  position: absolute;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  transition: ease-in-out 0.2s;
+}
+.grid-text:hover {
+  cursor: pointer;
+  color: #B5151B;
+}
+.hero-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 40vh;
+  color: white;
 }
 .navbar {
   width: 100%;
@@ -42,11 +40,11 @@ ul.navbar-nav li a {
   transition: 0.2s ease-in-out;
 }
 ul.navbar-nav li a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #B5151B;
   width: 100%;
 }
 .logo {
-  width: 90px;
+  width: 110px;
 }
 #about-carousel {
   margin-left: 50px;
@@ -76,6 +74,7 @@ ul.navbar-nav li a:hover {
   font-weight: 600;
   color: white;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  text-align: center;
 }
 .slide1 {
   background-image: url("../assets/images/carousel/carousel01.jpeg");
@@ -95,6 +94,26 @@ ul.navbar-nav li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.section-heading {
+  text-align: center;
+}
+.section-heading img {
+  margin-bottom: 1rem;
+  max-height: 10rem;
+}
+.section-heading h2 {
+  text-transform: uppercase;
+  font-family: "Baloo 2", cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #343434;
+}
+.section-heading input {
+  margin: 0 auto;
+}
+.hero-text {
+  text-align: center;
+}
 .card-body {
   color: #343434;
 }
@@ -103,14 +122,14 @@ ul.navbar-nav li a:hover {
   transition: ease-in-out 0.15s;
 }
 .card-body h5:hover {
-  color: red;
+  color: #B5151B;
   cursor: pointer;
 }
 .card-body h5:hover ion-icon {
   padding-left: 1rem;
 }
 .card-body ion-icon {
-  color: red;
+  color: #B5151B;
   margin-bottom: -0.235rem;
   padding-left: 0.5rem;
   transition: ease-in-out 0.15s;
@@ -148,41 +167,41 @@ ul.navbar-nav li a:hover {
   padding-left: 0.5rem;
   transition: ease-in-out 0.15s;
 }
-.grid-text {
+.grid-text-medium {
   color: white;
   position: absolute;
-  left: 5%;
-  bottom: 10%;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
   transition: ease-in-out 0.2s;
+  left: 5%;
+  bottom: 10%;
 }
-.grid-text:hover {
+.grid-text-medium:hover {
   cursor: pointer;
-  color: red;
+  color: #B5151B;
 }
 .grid-text-small {
   color: white;
   position: absolute;
-  left: 5%;
-  bottom: 5%;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
   transition: ease-in-out 0.2s;
+  left: 5%;
+  bottom: 5%;
 }
 .grid-text-small:hover {
   cursor: pointer;
-  color: red;
+  color: #B5151B;
 }
 .grid-text-large {
   color: white;
   position: absolute;
-  left: 5%;
-  bottom: 2%;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
   transition: ease-in-out 0.2s;
+  left: 5%;
+  bottom: 2%;
 }
 .grid-text-large:hover {
   cursor: pointer;
-  color: red;
+  color: #B5151B;
 }
 .grid-item-container {
   position: relative;
@@ -229,10 +248,12 @@ form {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
 }
 .contact-info h1 {
-  font-size: 4rem;
-  line-height: 3rem;
   text-transform: uppercase;
   font-family: "Baloo 2", cursive;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  line-height: 3rem;
 }
 .grid-img-md {
   object-fit: cover;
