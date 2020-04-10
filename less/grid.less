@@ -10,6 +10,9 @@
     }
 }
 
+
+
+
 .image-text {
     position: absolute;
     transform: translateY(-65px);
@@ -37,7 +40,12 @@
     position: absolute;
     left: 5%;
     bottom: 10%;
-    text-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+    transition: ease-in-out .2s;
+    &:hover {
+        cursor: pointer;
+        color:red;
+    }
 }
 
 .grid-text-small {
@@ -45,7 +53,12 @@
     position: absolute;
     left: 5%;
     bottom: 5%;
-    text-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+    transition: ease-in-out .2s;
+    &:hover {
+        cursor: pointer;
+        color:red;
+    }
 }
 
 .grid-text-large {
@@ -53,11 +66,28 @@
     position: absolute;
     left: 5%;
     bottom: 2%;
-    text-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+    transition: ease-in-out .2s;
+    &:hover {
+        cursor: pointer;
+        color:red;
+    }
 }
 
 .grid-item-container {
     position: relative;
     text-align: center;
     color: white;
+}
+
+.mobile-position {
+    @media @tablet {
+        bottom: 10%;
+    }
+}
+
+.mobile-position-large {
+    @media @tablet {
+        bottom: 6%;
+    }
 }

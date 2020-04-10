@@ -53,10 +53,10 @@ ul.navbar-nav li a:hover {
   margin-right: 50px;
 }
 .carousel-control-prev {
-  margin-left: -85px;
+  margin-left: -10%;
 }
 .carousel-control-next {
-  margin-right: -85px;
+  margin-right: -10%;
 }
 .carousel-icon {
   color: #343434;
@@ -154,6 +154,11 @@ ul.navbar-nav li a:hover {
   left: 5%;
   bottom: 10%;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  transition: ease-in-out 0.2s;
+}
+.grid-text:hover {
+  cursor: pointer;
+  color: red;
 }
 .grid-text-small {
   color: white;
@@ -161,6 +166,11 @@ ul.navbar-nav li a:hover {
   left: 5%;
   bottom: 5%;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  transition: ease-in-out 0.2s;
+}
+.grid-text-small:hover {
+  cursor: pointer;
+  color: red;
 }
 .grid-text-large {
   color: white;
@@ -168,11 +178,26 @@ ul.navbar-nav li a:hover {
   left: 5%;
   bottom: 2%;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  transition: ease-in-out 0.2s;
+}
+.grid-text-large:hover {
+  cursor: pointer;
+  color: red;
 }
 .grid-item-container {
   position: relative;
   text-align: center;
   color: white;
+}
+@media (max-width: 768px) {
+  .mobile-position {
+    bottom: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .mobile-position-large {
+    bottom: 6%;
+  }
 }
 form {
   overflow-x: hidden;
@@ -222,15 +247,27 @@ form {
 @media (max-width: 768px) {
   .grid-img-sm {
     height: 400px;
+    padding-bottom: 4px;
   }
 }
 .about-hero {
-  background-image: url("../assets/images/carousel/carousel01.jpeg");
+  background-image: url("../assets/images/about_us.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 40vh;
   color: white;
+}
+.contact-hero {
+  background-image: url("../assets/images/contact.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 40vh;
+  color: white;
+}
+.card-slider {
+  max-height: 250px;
 }
 footer {
   margin-top: 4rem;
