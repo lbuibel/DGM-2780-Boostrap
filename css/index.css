@@ -77,19 +77,19 @@ ul.navbar-nav li a:hover {
   text-align: center;
 }
 .slide1 {
-  background-image: url("../assets/images/carousel/carousel01.jpeg");
+  background-image: url("../assets/images/carousel/carousel2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slide2 {
-  background-image: url("../assets/images/carousel/carousel02.jpeg");
+  background-image: url("../assets/images/carousel/carousel3.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slide3 {
-  background-image: url("../assets/images/carousel/carousel03.jpeg");
+  background-image: url("../assets/images/carousel/carousel1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -272,7 +272,7 @@ form {
   }
 }
 .about-hero {
-  background-image: url("../assets/images/about_us.jpeg");
+  background-image: url("../assets/images/hero/about_us.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +280,7 @@ form {
   color: white;
 }
 .contact-hero {
-  background-image: url("../assets/images/contact.jpeg");
+  background-image: url("../assets/images/hero/contact.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
