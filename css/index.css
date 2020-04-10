@@ -148,6 +148,67 @@ ul.navbar-nav li a:hover {
   padding-left: 0.5rem;
   transition: ease-in-out 0.15s;
 }
+.grid-text {
+  color: white;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.grid-text-small {
+  color: white;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.grid-text-large {
+  color: white;
+  position: absolute;
+  left: 5%;
+  bottom: 2%;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.grid-item-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+form {
+  overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  form {
+    border-right: none;
+  }
+}
+.form-img {
+  display: block;
+}
+.form-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+}
+@media (max-width: 768px) {
+  .form-img {
+    display: none;
+  }
+}
+.contact-info {
+  color: white;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.contact-info h1 {
+  font-size: 4rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  font-family: "Baloo 2", cursive;
+}
 .grid-img-md {
   object-fit: cover;
   height: 600px;
